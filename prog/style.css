@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+header {
+    background-color: #b5651d;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.titulo {
+    color: rgb(65, 12, 12);
+    padding: 100px 0;
+    text-align: center;
+}
+.titulo h2 {
+    color: rgb(37, 20, 20);
+    font-size: 3em;
+    margin: 0;
+}
+.titulo p {
+    color: rgb(36, 18, 21);
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.produto {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.produto img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.produto h3 {
+    margin: 10px 0;
+    color: #b5651d;
+}
+.produto p {
+    color: #555;
+}
+.produto:hover {
+    transform: scale(1.05);
+}
+footer {
+    background-color: #b5651d;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
